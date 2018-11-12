@@ -1,7 +1,3 @@
-/*
- * Public API Surface of ng-animated-card-stack
- */
-
 export * from './lib/services/animated-stack.service';
 export * from './lib/components/animated-card/animated-card.component';
 export * from './lib/components/animated-stack/animated-stack.component';

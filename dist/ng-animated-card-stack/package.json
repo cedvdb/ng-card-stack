@@ -1,0 +1,21 @@
+{
+  "name": "ng-animated-card-stack",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0"
+  },
+  "main": "bundles/ng-animated-card-stack.umd.js",
+  "module": "fesm5/ng-animated-card-stack.js",
+  "es2015": "fesm2015/ng-animated-card-stack.js",
+  "esm5": "esm5/ng-animated-card-stack.js",
+  "esm2015": "esm2015/ng-animated-card-stack.js",
+  "fesm5": "fesm5/ng-animated-card-stack.js",
+  "fesm2015": "fesm2015/ng-animated-card-stack.js",
+  "typings": "ng-animated-card-stack.d.ts",
+  "metadata": "ng-animated-card-stack.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

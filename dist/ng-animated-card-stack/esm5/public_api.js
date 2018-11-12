@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of ng-animated-card-stack
+ */
+export { AnimatedStackService } from './lib/services/animated-stack.service';
+export { AnimatedCardComponent } from './lib/components/animated-card/animated-card.component';
+export { AnimatedStackComponent } from './lib/components/animated-stack/animated-stack.component';
+export { AnimatedCardStackModule } from './lib/animated-card-stack.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25nLWFuaW1hdGVkLWNhcmQtc3RhY2svIiwic291cmNlcyI6WyJwdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSxxQ0FBYyx1Q0FBdUMsQ0FBQztBQUN0RCxzQ0FBYyx3REFBd0QsQ0FBQztBQUN2RSx1Q0FBYywwREFBMEQsQ0FBQztBQUN6RSx3Q0FBYyxrQ0FBa0MsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgbmctYW5pbWF0ZWQtY2FyZC1zdGFja1xuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL3NlcnZpY2VzL2FuaW1hdGVkLXN0YWNrLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvY29tcG9uZW50cy9hbmltYXRlZC1jYXJkL2FuaW1hdGVkLWNhcmQuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2NvbXBvbmVudHMvYW5pbWF0ZWQtc3RhY2svYW5pbWF0ZWQtc3RhY2suY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2FuaW1hdGVkLWNhcmQtc3RhY2subW9kdWxlJztcbiJdfQ==

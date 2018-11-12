@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { AnimatedCardComponent, AnimatedStackComponent } from './components';
+import { AnimatedStackComponent } from './components/animated-stack/animated-stack.component';
+import { AnimatedCardComponent } from './components/animated-card/animated-card.component';
 
 @NgModule({
   imports: [],
