@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-animated-card-stack": [
+        "dist/ng-animated-card-stack"
+      ],
+      "ng-animated-card-stack/*": [
+        "dist/ng-animated-card-stack/*"
+      ]
+    }
   }
 }

@@ -1,0 +1,21 @@
+
+:host {
+  width: 100vw;
+  height: 100vh;
+}
+
+x-animated-stack {
+  margin: auto;
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.card {
+  width: 6rem;
+  height: 6rem;
+  background: hsl(0, 100%, 50%);
+  margin: 1rem;
+  cursor: pointer;
+}

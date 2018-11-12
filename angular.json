@@ -129,6 +129,41 @@
           }
         }
       }
+    },
+    "ng-animated-card-stack": {
+      "root": "projects/ng-animated-card-stack",
+      "sourceRoot": "projects/ng-animated-card-stack/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-animated-card-stack/tsconfig.lib.json",
+            "project": "projects/ng-animated-card-stack/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-animated-card-stack/src/test.ts",
+            "tsConfig": "projects/ng-animated-card-stack/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-animated-card-stack/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-animated-card-stack/tsconfig.lib.json",
+              "projects/ng-animated-card-stack/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "animated-card-stack-lib"
